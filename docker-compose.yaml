@@ -1,0 +1,62 @@
+version: '3.8'
+
+networks:
+  proxy:
+    external: true
+
+volumes:
+  prometheus_data:
+    driver: local
+  grafana_data:
+    driver: local
+  db-data:
+    driver: local
+
+services:
+  #dreambot:
+  #  build:
+  #    context: .
+  #    dockerfile: Dockerfile
+  #  ports:
+  #    - 8000-8000
+        
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - /etc/prometheus:/etc/prometheus
+      - prometheus_data:/prometheus
+    restart: unless-stopped
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+    labels:
+      - traefik.enable=false
+      
+  grafana:
+    image: grafana/grafana-enterprise:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+    labels:
+      - traefik.http.routers.grafana.rule=Host(`aitrader.fr)
+      - traefik.http.routers.grafana.tls=true
+      - traefik.http.routers.grafana.tls.certresolver=lets-encrypt
+      - traefik.http.services.grafana.loadbalancer.server.port=3000
+    networks:
+      - proxy
+    restart: unless-stopped  
+      
+  db:
+    image: postgres
+    environment:
+      POSTGRES_USER: h4ckm1n
+      POSTGRES_PASSWORD: 300384Jul
+      POSTGRES_DB: tradingdb
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
