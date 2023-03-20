@@ -13,12 +13,12 @@ volumes:
     driver: local
 
 services:
-  #dreambot:
-  #  build:
-  #    context: .
-  #    dockerfile: Dockerfile
-  #  ports:
-  #    - 8000-8000
+  dreambot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8000-8000
         
   prometheus:
     image: prom/prometheus:latest
@@ -55,7 +55,7 @@ services:
     environment:
       POSTGRES_USER: h4ckm1n
       POSTGRES_PASSWORD: 300384Jul
-      POSTGRES_DB: tradingdb
+      POSTGRES_DB: tradingdb,candles
     volumes:
       - db-data:/var/lib/postgresql/data
     ports:

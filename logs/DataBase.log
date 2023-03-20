@@ -1,0 +1,101 @@
+2023-03-20 20:24:58,571 - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-03-20 20:24:58,917 - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/userTrades?fromId=1&limit=1000&symbol=BTCUSDT&timestamp=1679340298569&signature=b75a1c5b6f65bff7bc9a61d392d2063b68ba86b3256271939c2d9d27c6ea2652 HTTP/1.1" 200 None
+2023-03-20 20:24:59,156 - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/userTrades?fromId=253232335&limit=1000&symbol=BTCUSDT&timestamp=1679340298918&signature=37e0c06233e8f08af63647d1a02187d5e31eb60d5b65b35a9d919fc75f65c641 HTTP/1.1" 200 2
+2023-03-20 20:24:59,157 - ERROR - Error: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2023-03-20 20:28:06,959 - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-03-20 20:28:07,650 - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/userTrades?fromId=1&limit=1000&symbol=BTCUSDT&timestamp=1679340486957&signature=af8f22cdd3fd65956fc3258d233fbad8f2d6c3663cc0e2e065a31ca7ab49cfcf HTTP/1.1" 200 None
+2023-03-20 20:28:08,350 - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/userTrades?fromId=253232335&limit=1000&symbol=BTCUSDT&timestamp=1679340487652&signature=a0cbef28a83d4ab8eda2ef191761aa945f6ef6bb2e85974240ccf5a865c5ed56 HTTP/1.1" 200 2
+2023-03-20 20:28:08,355 - ERROR - Error: This connection has already initialized a SQLAlchemy Transaction() object via begin() or autobegin; can't call begin() here unless rollback() or commit() is called first.
+2023-03-20 20:29:06,238 - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-03-20 20:29:06,624 - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/userTrades?fromId=1&limit=1000&symbol=BTCUSDT&timestamp=1679340546237&signature=97afb4e8e2985a3b9a37a83b96b2fee1bbd69fba9137052cddf713ee6e387106 HTTP/1.1" 200 None
+2023-03-20 20:29:06,879 - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/userTrades?fromId=253232335&limit=1000&symbol=BTCUSDT&timestamp=1679340546638&signature=8747fb3fe688a6ce92db381aead16077e12cdf6a5f613d8518d33c112821570a HTTP/1.1" 200 2
+2023-03-20 20:29:06,890 - INFO - Trade for BTCUSDT - price: 24511.1, quantity: 0.001, buy or sell: BUY, fee: 0.00980443, time: 1676584322434
+2023-03-20 20:29:06,894 - INFO - Trade for BTCUSDT - price: 24511.7, quantity: 0.001, buy or sell: BUY, fee: 0.00980468, time: 1676584322434
+2023-03-20 20:29:06,899 - INFO - Trade for BTCUSDT - price: 24512.0, quantity: 0.001, buy or sell: BUY, fee: 0.0098048, time: 1676584322434
+2023-03-20 20:29:06,943 - INFO - Trade for BTCUSDT - price: 24512.3, quantity: 0.001, buy or sell: BUY, fee: 0.00980492, time: 1676584322434
+2023-03-20 20:29:06,957 - INFO - Trade for BTCUSDT - price: 24514.2, quantity: 0.006, buy or sell: BUY, fee: 0.05883408, time: 1676584322434
+2023-03-20 20:29:06,961 - INFO - Trade for BTCUSDT - price: 24538.9, quantity: 0.01, buy or sell: BUY, fee: 0.0490778, time: 1676584950383
+2023-03-20 20:29:06,973 - INFO - Trade for BTCUSDT - price: 24538.9, quantity: 0.01, buy or sell: BUY, fee: 0.0981556, time: 1676584951177
+2023-03-20 20:29:06,976 - INFO - Trade for BTCUSDT - price: 24532.3, quantity: 0.01, buy or sell: SELL, fee: 0.0981292, time: 1676584951853
+2023-03-20 20:29:06,978 - INFO - Trade for BTCUSDT - price: 24539.4, quantity: 0.001, buy or sell: SELL, fee: 0.00981576, time: 1676585201463
+2023-03-20 20:29:06,979 - INFO - Trade for BTCUSDT - price: 24538.8, quantity: 0.001, buy or sell: SELL, fee: 0.00981552, time: 1676585201463
+2023-03-20 20:29:06,981 - INFO - Trade for BTCUSDT - price: 24538.5, quantity: 0.001, buy or sell: SELL, fee: 0.0098154, time: 1676585201463
+2023-03-20 20:29:06,983 - INFO - Trade for BTCUSDT - price: 24538.2, quantity: 0.001, buy or sell: SELL, fee: 0.00981527, time: 1676585201463
+2023-03-20 20:29:06,985 - INFO - Trade for BTCUSDT - price: 24537.3, quantity: 0.006, buy or sell: SELL, fee: 0.05888952, time: 1676585201463
+2023-03-20 20:29:06,992 - INFO - Trade for BTCUSDT - price: 24542.7, quantity: 0.01, buy or sell: BUY, fee: 0.0981708, time: 1676585201717
+2023-03-20 20:29:06,999 - INFO - Trade for BTCUSDT - price: 24537.3, quantity: 0.01, buy or sell: SELL, fee: 0.0981492, time: 1676585201953
+2023-03-20 20:29:07,006 - INFO - Trade for BTCUSDT - price: 24536.7, quantity: 0.01, buy or sell: BUY, fee: 0.0490734, time: 1676585215867
+2023-03-20 20:29:07,014 - INFO - Trade for BTCUSDT - price: 24329.9, quantity: 0.01, buy or sell: BUY, fee: 0.0486598, time: 1676586204419
+2023-03-20 20:29:07,028 - INFO - Trade for BTCUSDT - price: 24546.8, quantity: 0.054, buy or sell: BUY, fee: 0.53021088, time: 1676722306483
+2023-03-20 20:29:07,037 - INFO - Trade for BTCUSDT - price: 24548.5, quantity: 0.036, buy or sell: BUY, fee: 0.3534984, time: 1676722306483
+2023-03-20 20:29:07,048 - INFO - Trade for BTCUSDT - price: 24550.8, quantity: 0.038, buy or sell: BUY, fee: 0.37317216, time: 1676722306483
+2023-03-20 20:29:07,058 - INFO - Trade for BTCUSDT - price: 24551.6, quantity: 0.04, buy or sell: BUY, fee: 0.3928256, time: 1676722306483
+2023-03-20 20:29:07,073 - INFO - Trade for BTCUSDT - price: 24552.2, quantity: 0.05, buy or sell: BUY, fee: 0.491044, time: 1676722306483
+2023-03-20 20:29:07,080 - INFO - Trade for BTCUSDT - price: 24552.4, quantity: 0.032, buy or sell: BUY, fee: 0.31427072, time: 1676722306483
+2023-03-20 20:29:07,084 - INFO - Trade for BTCUSDT - price: 24582.0, quantity: 0.27, buy or sell: SELL, fee: 2.654856, time: 1676722376957
+2023-03-20 20:29:07,086 - INFO - Trade for BTCUSDT - price: 24587.0, quantity: 0.25, buy or sell: BUY, fee: 2.4587, time: 1676722400776
+2023-03-20 20:29:07,088 - INFO - Trade for BTCUSDT - price: 24584.4, quantity: 0.25, buy or sell: SELL, fee: 2.45844, time: 1676722407110
+2023-03-20 20:29:07,097 - INFO - Trade for BTCUSDT - price: 24602.2, quantity: 0.25, buy or sell: BUY, fee: 2.46022, time: 1676731300098
+2023-03-20 20:29:07,100 - INFO - Trade for BTCUSDT - price: 24585.5, quantity: 0.25, buy or sell: SELL, fee: 2.45854999, time: 1676731307488
+2023-03-20 20:29:07,103 - INFO - Trade for BTCUSDT - price: 24585.6, quantity: 0.25, buy or sell: BUY, fee: 2.45856, time: 1676731425767
+2023-03-20 20:29:07,105 - INFO - Trade for BTCUSDT - price: 24583.2, quantity: 0.25, buy or sell: SELL, fee: 2.45832, time: 1676731431408
+2023-03-20 20:29:07,107 - INFO - Trade for BTCUSDT - price: 24656.6, quantity: 0.25, buy or sell: BUY, fee: 2.46566, time: 1676733086052
+2023-03-20 20:29:07,111 - INFO - Trade for BTCUSDT - price: 24548.0, quantity: 0.25, buy or sell: SELL, fee: 2.4548, time: 1676733090306
+2023-03-20 20:29:07,116 - INFO - Trade for BTCUSDT - price: 24661.1, quantity: 0.25, buy or sell: BUY, fee: 2.46611, time: 1676733678950
+2023-03-20 20:29:07,156 - INFO - Trade for BTCUSDT - price: 24659.1, quantity: 0.25, buy or sell: SELL, fee: 2.46591, time: 1676733685001
+2023-03-20 20:29:07,211 - INFO - Trade for BTCUSDT - price: 24660.5, quantity: 0.25, buy or sell: BUY, fee: 2.46605, time: 1676736601422
+2023-03-20 20:29:07,217 - INFO - Trade for BTCUSDT - price: 24557.1, quantity: 0.25, buy or sell: SELL, fee: 2.45570999, time: 1676736607657
+2023-03-20 20:29:07,292 - INFO - Trade for BTCUSDT - price: 24681.1, quantity: 0.25, buy or sell: BUY, fee: 2.46810999, time: 1676736910565
+2023-03-20 20:29:07,336 - INFO - Trade for BTCUSDT - price: 24679.5, quantity: 0.25, buy or sell: SELL, fee: 2.46795, time: 1676736927331
+2023-03-20 20:29:07,351 - INFO - Trade for BTCUSDT - price: 24655.6, quantity: 0.25, buy or sell: BUY, fee: 2.46556, time: 1676737337922
+2023-03-20 20:29:07,358 - INFO - Trade for BTCUSDT - price: 24652.6, quantity: 0.25, buy or sell: SELL, fee: 2.46525999, time: 1676737342307
+2023-03-20 20:29:07,393 - INFO - Trade for BTCUSDT - price: 24673.6, quantity: 0.25, buy or sell: BUY, fee: 2.46736, time: 1676743342896
+2023-03-20 20:29:07,395 - INFO - Trade for BTCUSDT - price: 24670.5, quantity: 0.25, buy or sell: SELL, fee: 2.46705, time: 1676743349446
+2023-03-20 20:29:07,397 - INFO - Trade for BTCUSDT - price: 24670.6, quantity: 0.25, buy or sell: BUY, fee: 2.46706, time: 1676743373024
+2023-03-20 20:29:07,402 - INFO - Trade for BTCUSDT - price: 24671.1, quantity: 0.25, buy or sell: SELL, fee: 2.46711, time: 1676743388925
+2023-03-20 20:29:07,406 - INFO - Trade for BTCUSDT - price: 24672.2, quantity: 0.25, buy or sell: BUY, fee: 2.46722, time: 1676743510626
+2023-03-20 20:29:07,410 - INFO - Trade for BTCUSDT - price: 24664.6, quantity: 0.25, buy or sell: SELL, fee: 2.46646, time: 1676743531316
+2023-03-20 20:29:07,421 - INFO - Trade for BTCUSDT - price: 24705.1, quantity: 0.25, buy or sell: BUY, fee: 2.47051, time: 1676746347978
+2023-03-20 20:29:07,427 - INFO - Trade for BTCUSDT - price: 24684.4, quantity: 0.25, buy or sell: SELL, fee: 2.46844, time: 1676747915553
+2023-03-20 20:29:07,432 - INFO - Trade for BTCUSDT - price: 24658.9, quantity: 0.022, buy or sell: BUY, fee: 0.21699832, time: 1676803568961
+2023-03-20 20:29:07,458 - INFO - Trade for BTCUSDT - price: 24660.4, quantity: 0.025, buy or sell: BUY, fee: 0.246604, time: 1676803568961
+2023-03-20 20:29:07,489 - INFO - Trade for BTCUSDT - price: 24661.9, quantity: 0.034, buy or sell: BUY, fee: 0.33540184, time: 1676803568961
+2023-03-20 20:29:07,493 - INFO - Trade for BTCUSDT - price: 24676.6, quantity: 0.169, buy or sell: BUY, fee: 1.66813816, time: 1676803568961
+2023-03-20 20:29:07,501 - INFO - Trade for BTCUSDT - price: 24650.6, quantity: 0.25, buy or sell: SELL, fee: 2.46505999, time: 1676803591032
+2023-03-20 20:29:07,506 - INFO - Trade for BTCUSDT - price: 24638.5, quantity: 0.25, buy or sell: BUY, fee: 2.46385, time: 1676803687473
+2023-03-20 20:29:07,521 - INFO - Trade for BTCUSDT - price: 24635.1, quantity: 0.25, buy or sell: SELL, fee: 2.46351, time: 1676803693403
+2023-03-20 20:29:07,526 - INFO - Trade for BTCUSDT - price: 24635.1, quantity: 0.004, buy or sell: SELL, fee: 0.03941616, time: 1676803698946
+2023-03-20 20:29:07,568 - INFO - Trade for BTCUSDT - price: 24633.1, quantity: 0.246, buy or sell: SELL, fee: 2.42389704, time: 1676803698946
+2023-03-20 20:29:07,573 - INFO - Trade for BTCUSDT - price: 24638.5, quantity: 0.25, buy or sell: BUY, fee: 2.46385, time: 1676803704447
+2023-03-20 20:29:07,577 - INFO - Trade for BTCUSDT - price: 24655.6, quantity: 0.25, buy or sell: BUY, fee: 2.46556, time: 1676803845714
+2023-03-20 20:29:07,582 - INFO - Trade for BTCUSDT - price: 24654.1, quantity: 0.25, buy or sell: SELL, fee: 2.46541, time: 1676803851244
+2023-03-20 20:29:07,586 - INFO - Trade for BTCUSDT - price: 24654.1, quantity: 0.25, buy or sell: SELL, fee: 2.46541, time: 1676803856623
+2023-03-20 20:29:07,598 - INFO - Trade for BTCUSDT - price: 24659.6, quantity: 0.25, buy or sell: BUY, fee: 2.46596, time: 1676803862486
+2023-03-20 20:29:07,630 - INFO - Trade for BTCUSDT - price: 24648.6, quantity: 0.25, buy or sell: BUY, fee: 2.46485999, time: 1676803926641
+2023-03-20 20:29:07,696 - INFO - Trade for BTCUSDT - price: 24647.6, quantity: 0.25, buy or sell: SELL, fee: 2.46476, time: 1676803977883
+2023-03-20 20:29:07,700 - INFO - Trade for BTCUSDT - price: 24655.0, quantity: 0.25, buy or sell: BUY, fee: 2.4655, time: 1676804683003
+2023-03-20 20:29:07,702 - INFO - Trade for BTCUSDT - price: 24649.5, quantity: 0.25, buy or sell: SELL, fee: 2.46495, time: 1676804688526
+2023-03-20 20:29:07,708 - INFO - Trade for BTCUSDT - price: 24649.5, quantity: 0.25, buy or sell: SELL, fee: 2.46495, time: 1676804694358
+2023-03-20 20:29:07,712 - INFO - Trade for BTCUSDT - price: 24655.0, quantity: 0.25, buy or sell: BUY, fee: 2.4655, time: 1676804699737
+2023-03-20 20:29:07,715 - INFO - Trade for BTCUSDT - price: 24655.0, quantity: 0.25, buy or sell: BUY, fee: 2.4655, time: 1676804722254
+2023-03-20 20:29:07,765 - INFO - Trade for BTCUSDT - price: 24645.1, quantity: 0.25, buy or sell: SELL, fee: 2.46451, time: 1676804727613
+2023-03-20 20:29:07,796 - INFO - Trade for BTCUSDT - price: 24645.1, quantity: 0.25, buy or sell: SELL, fee: 2.46451, time: 1676804733015
+2023-03-20 20:29:07,798 - INFO - Trade for BTCUSDT - price: 24647.7, quantity: 0.25, buy or sell: BUY, fee: 2.46477, time: 1676804738386
+2023-03-20 20:29:07,803 - INFO - Trade for BTCUSDT - price: 24507.0, quantity: 0.25, buy or sell: BUY, fee: 2.4507, time: 1676834767169
+2023-03-20 20:29:07,805 - INFO - Trade for BTCUSDT - price: 24501.9, quantity: 0.25, buy or sell: SELL, fee: 2.45019, time: 1676834772655
+2023-03-20 20:29:07,808 - INFO - Trade for BTCUSDT - price: 24501.9, quantity: 0.25, buy or sell: SELL, fee: 2.45019, time: 1676834778042
+2023-03-20 20:29:07,812 - INFO - Trade for BTCUSDT - price: 24512.3, quantity: 0.25, buy or sell: BUY, fee: 2.45122999, time: 1676834783888
+2023-03-20 20:29:07,814 - INFO - Trade for BTCUSDT - price: 24933.5, quantity: 0.003, buy or sell: BUY, fee: 0.0299202, time: 1676907428158
+2023-03-20 20:29:07,817 - INFO - Trade for BTCUSDT - price: 24964.0, quantity: 0.247, buy or sell: BUY, fee: 2.4664432, time: 1676907428158
+2023-03-20 20:29:07,827 - INFO - Trade for BTCUSDT - price: 24952.1, quantity: 0.25, buy or sell: SELL, fee: 2.49521, time: 1676907433523
+2023-03-20 20:29:07,833 - INFO - Trade for BTCUSDT - price: 24952.1, quantity: 0.25, buy or sell: SELL, fee: 2.49521, time: 1676907438999
+2023-03-20 20:29:07,837 - INFO - Trade for BTCUSDT - price: 24960.0, quantity: 0.25, buy or sell: BUY, fee: 2.496, time: 1676907444439
+2023-03-20 20:29:07,849 - INFO - Trade for BTCUSDT - price: 23500.2, quantity: 1.256, buy or sell: BUY, fee: 11.80650048, time: 1677598526780
+2023-03-20 20:29:07,861 - INFO - Trade for BTCUSDT - price: 23487.5, quantity: 1.256, buy or sell: SELL, fee: 11.80012, time: 1677598582751
+2023-03-20 20:29:07,874 - INFO - Trade for BTCUSDT - price: 23369.3, quantity: 1.507, buy or sell: BUY, fee: 14.08701404, time: 1677756325397
+2023-03-20 20:29:07,880 - INFO - Trade for BTCUSDT - price: 23390.0, quantity: 1.507, buy or sell: SELL, fee: 14.099492, time: 1677756359383
+2023-03-20 20:29:07,903 - INFO - Trade for BTCUSDT - price: 23372.7, quantity: 1.572, buy or sell: BUY, fee: 7.34837688, time: 1677771294127
+2023-03-20 20:29:07,916 - INFO - Trade for BTCUSDT - price: 23359.8, quantity: 1.572, buy or sell: SELL, fee: 14.68864224, time: 1677771308879
+2023-03-20 21:24:42,428 - DEBUG - Starting new HTTPS connection (1): testnet.binancefuture.com:443
+2023-03-20 21:24:42,870 - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/userTrades?fromId=1&limit=1000&symbol=BTCUSDT&timestamp=1679343882427&signature=86671b977b7cf3362e69b122899be67e21222d4df3d7741f4369c6369313fe94 HTTP/1.1" 200 None
+2023-03-20 21:24:43,103 - DEBUG - https://testnet.binancefuture.com:443 "GET /fapi/v1/userTrades?fromId=253232335&limit=1000&symbol=BTCUSDT&timestamp=1679343882872&signature=d26306eb9a7c318427a2683d9b35d2b0393665f271669343adddb72a09a1519a HTTP/1.1" 200 2

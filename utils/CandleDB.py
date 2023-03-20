@@ -38,7 +38,6 @@ db_uri = os.getenv('DB_URI_CANDLES')
 engine = create_engine(db_uri)
 conn = engine.connect()
 
-
 def create_database_and_table():
     try:
         result = conn.execute(text("SELECT datname FROM pg_catalog.pg_database WHERE datname = :db_name"), {'db_name': f"{symbol}_{interval}"})
